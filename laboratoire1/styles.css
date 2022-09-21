@@ -15,7 +15,7 @@ source educative: w3schools.com et MDN developpers.monzilla.org/doc/web
     font-size: 25px; 
 }
 
-a{
+a {
     text-decoration:none
 }
 
@@ -27,10 +27,11 @@ table{
     background-color: rgb(232, 234, 238);
 }
 
-tr{
-    background-color: aqua;    
+tr {
+    background-color: aqua;   
     
 } 
+
 #contact tr{
     background-color: white;
     border: 0px;
@@ -50,11 +51,18 @@ tr{
 source educative: w3schools.com et MDN developpers.monzilla.org/doc/web
 */
 #header{
-    position: relative; text-align: center; width: 900px; margin: auto; height: 200px;
-    background-image: url(images/artisan5.jpg); }
+    position: relative; 
+    text-align: center;
+    width: 900px;
+    margin: auto; 
+    height: 200px;
+    background-image: url(images/artisan5.jpg);
+ }
+
 body {
-    font: 16px  margin: auto;    
-    background-color: "#F4F6F7";
+    font: 16px; 
+    margin: auto ;    
+    background-color:blank;
     margin-top: 15px; 
     margin-bottom: 10px;
     margin-left: 65px; 
@@ -75,6 +83,13 @@ img {
     width:80px;
     height:80px; 
 }
+
+
+#titre h1{
+    background-color: rgb(072, 255, 001);
+
+}
+
 /*
 #contact h3{
     font-family: 'Courier New', Courier, monospace;   
