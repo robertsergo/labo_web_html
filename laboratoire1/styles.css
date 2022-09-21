@@ -28,11 +28,20 @@ table{
 }
 
 tr{
-    background-color: aqua;
-    
-    
+    background-color: aqua;    
     
 } 
+#contact tr{
+    background-color: white;
+    border: 0px;
+    width: 90%;
+    position: relative; 
+    margin: auto;
+    margin-left: 20px;
+    height: auto; 
+    float:left;
+
+}
 
 
 
@@ -55,22 +64,25 @@ body {
     height: auto;
     background: url(images/artisan7.jpg) repeat-x center;
  }
-#boite1 {
-    position: relative; margin: auto; margin-left: 20px; height: auto; width: 643px; float:left;
-    background-image: url(images/catalog.png); }
-#boite2 {
-    position: relative; margin-left: 20px; height: 28px; width: 323px; float:left;
-    background-image: url(images/bottom2.png); }
-#footer {
-    font-size: 11px Arial, sans-serif; line-height: 14px; position: relative; width: 900px; height: 80px;
-    background-image: url(images/artisan4.jpg) no-repeat center; }
+
 
 img {
         width:220px;
         height:180px; 
 }
 
+#contact img {
+    width:80px;
+    height:80px; 
+}
 /*
+#contact h3{
+    font-family: 'Courier New', Courier, monospace;   
+    float: left;
+}
+
+
+
 source educative: w3schools.com et MDN developpers.monzilla.org/doc/web
 */
 
